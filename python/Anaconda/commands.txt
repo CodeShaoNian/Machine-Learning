@@ -1,0 +1,2 @@
+1.换回国外默认镜像源 
+  conda config --remove-key channels

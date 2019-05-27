@@ -1,2 +1,9 @@
+
+镜像源
 1.换回国外默认镜像源（发现速度并不是很慢，QAQ）
   conda config --remove-key channels
+2.更改镜像源
+  conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  conda config --set show_channel_urls yes
+  
+  源地址链接：https://blog.csdn.net/leviopku/article/details/80113021

@@ -1,2 +1,2 @@
-1.换回国外默认镜像源 
+1.换回国外默认镜像源（发现速度并不是很慢，QAQ）
   conda config --remove-key channels

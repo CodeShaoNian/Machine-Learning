@@ -12,9 +12,20 @@
 * 大致原理
 
 
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= 在此插入Latex公式" style="border:none;">
+
+
  
  假设原始数据为<img src="http://chart.googleapis.com/chart?cht=tx&chl= X=(x1,x2,...,xn)^{T}" style="border:none;">，
- 我们的优化目标是使得投影之后（也就是线性变换之后） 在每个维度上的数据的方差最大，方差的定义是 <img src="http://chart.googleapis.com/chart? cht=tx&chl= Var(a)=\frac{1}{m}*\sum (a_{i}-u)^2" style="border:none;">， 也就可以直接考虑成 
+ 我们的优化目标是使得投影之后（也就是线性变换之后） 在每个维度上的数据的方差最大，方差的定义是 <img src="http://chart.googleapis.com/chart? cht=tx&chl= Var(a)=\frac{1}{m}*\sum (a_{i}-u)^2" style="border:none;">， 也就可以直接考虑成对应维度向量的内积， 如果是多维的话，我们的目标
+ 肯定是不同维度之间最好线性无关， 这样的话，才不至于都选一个唯一的基。
+ 
+ 
+ 基变换可以表示成：
+ <img src="http://chart.googleapis.com/chart?cht=tx&chl= \begin{pmatrix}p_{1}\\p_{2}\\...\\p_{d}\end{pmatrix}" style="border:none;">
+ <img src="http://chart.googleapis.com/chart?cht=tx&chl= \begin{pmatrix} a_{1},& a_{2},& ...&a_{n} \end{pmatrix}" style="border:none;">
+ <img src="http://chart.googleapis.com/chart?cht=tx&chl= =\begin{pmatrix} p_{1}a_{1} &  p_{1}a_{2}& ... & p_{1}a_{n} \\ p_{2}a_{1} &  p_{2}a_{2}& ... & p_{2}a_{n}\\ ... &  ...&  ...& ...\\ p_{d}a_{1} &  p_{d}a_{2}& ... & p_{d}a_{n} \end{pmatrix}" style="border:none;">
+
 
 
  

@@ -4,4 +4,7 @@ PCA数学原理及其实现
       怎样降维才会最少的损失信息？利用维度之间的相关性，降低损失。
 
 
+
+协方差矩阵理解： https://blog.csdn.net/GoodShot/article/details/79940438
+迹的理解：      http://www.360doc.com/content/17/1107/09/32196507_701568401.shtml
 博客链接：blog.codinglabs.org/articles/pca-tutorial.html

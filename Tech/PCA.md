@@ -13,14 +13,9 @@
 
 
  
- 假设原始数据 为 
- 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
+ 假设原始数据为<img src="http://chart.googleapis.com/chart?cht=tx&chl= (x1,x2,...,xn)^{T}" style="border:none;">
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
 
- $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
  
- </script>
 
  

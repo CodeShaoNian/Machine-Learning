@@ -13,7 +13,11 @@
 
 
  
- 假设原始数据为<img src="http://chart.googleapis.com/chart?cht=tx&chl= (x1,x2,...,xn)^{T}" style="border:none;">
+ 假设原始数据为<img src="http://chart.googleapis.com/chart?cht=tx&chl= X=(x1,x2,...,xn)^{T}" style="border:none;">，
+ 我们的优化目标是使得投影之后（也就是线性变换之后） 在每个维度上的数据的方差最大，方差的定义是 <img src="http://chart.googleapis.com/chart? cht=tx&chl= Var(a)=\frac{1}{m}*\sum (a_{i}-u)^2" style="border:none;">， 也就可以直接考虑成 
+
+
+ 
 
 
  

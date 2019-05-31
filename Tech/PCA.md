@@ -1,8 +1,7 @@
-PCA数学原理及其实现
+# PCA数学原理及其实现
 
-目的： 分析数据特征之间的关系时，当数据维度过高时，处理困难，所以降维；
-      怎样降维才会最少的损失信息？利用维度之间的相关性，降低损失。
-
+目的： 分析数据特征之间的关系时，当数据维度过高时，一是 处理困难，二是 数据变得稀疏， 所以会引发**维数灾难**
+       怎样降维才会最少的损失信息？利用维度之间的相关性，降低损失。
 
 
 协方差矩阵理解： https://blog.csdn.net/GoodShot/article/details/79940438
@@ -10,9 +9,13 @@ PCA数学原理及其实现
 博客链接：blog.codinglabs.org/articles/pca-tutorial.html
 
 
+* 大致原理
 
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-已知原数据格式为  
-$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+ 
+ 假设原始数据 为 
+ 
+ <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+ $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 \\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
+ 

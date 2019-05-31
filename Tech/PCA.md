@@ -22,9 +22,9 @@
  
  
  基变换可以表示成：
- <img src="http://chart.googleapis.com/chart?cht=tx&chl= \begin{pmatrix}p_{1}\\p_{2}\\...\\p_{d}\end{pmatrix}" style="border:none;">
- <img src="http://chart.googleapis.com/chart?cht=tx&chl= \begin{pmatrix} a_{1},& a_{2},& ...&a_{n} \end{pmatrix}" style="border:none;">
- <img src="http://chart.googleapis.com/chart?cht=tx&chl= =\begin{pmatrix} p_{1}a_{1} &  p_{1}a_{2}& ... & p_{1}a_{n} \\ p_{2}a_{1} &  p_{2}a_{2}& ... & p_{2}a_{n}\\ ... &  ...&  ...& ...\\ p_{d}a_{1} &  p_{d}a_{2}& ... & p_{d}a_{n} \end{pmatrix}" style="border:none;">
+
+ 
+ 
 
 
 
